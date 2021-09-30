@@ -1,0 +1,120 @@
+/* CSS Document */
+/*@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');*/
+
+* {
+  font-family: Raleway;
+  font-size: 12px;
+  color: #5b5b5b; 
+  /*text-align: center;*/
+}
+.site-content {
+	width: 1340px; 
+	margin: 0 auto; 
+	/*border:1px solid #ccc;*/
+}
+#header {
+	/**/
+}
+
+#s_hebergement {
+	/**/
+}
+
+#footer {
+	/**/
+}
+
+.r-title {
+	/*Center Location Left*/
+	font-size: 14px;
+	font-weight: 400;
+}
+.r-stitle {
+	/*Center Location Left*/
+	font-size: 12px;
+	font-weight: bold;
+}
+.local-left {
+	/*Center Location Left*/
+	box-sizing: border-box;
+	width: 870px;
+	min-height: 625px; 
+	padding: 40px;
+	border-radius: 10px;
+	float: left;
+	background: #d1d1d1;
+}
+.local-right {
+	/*Center Location Right*/
+	box-sizing: border-box;
+	margin-left: auto;
+	width: 420px;
+	min-height: 625px;
+	padding: 40px;
+	border-radius: 10px;
+	background: #d1d1d1;
+}
+
+
+
+.container-local-left { 	 	
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between; /*space-around;*/
+	flex-wrap: wrap;
+  	align-items: center;
+}
+
+.item-local-left {
+  width: 245px;
+  height: 200px;
+  border: 5px solid #fff;
+  border-radius: 10px;
+}
+
+.container-local-right { 
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+  	align-items: center;
+}
+
+.item-local-right {
+  width: 340px;
+  height: 145px;
+  border: 5px solid #fff;
+  border-radius: 10px;
+}
+
+/*.container div:nth-child(1), div:nth-child(6) {
+  background-color: #00BFB8;
+}
+
+.container div:nth-child(2), div:nth-child(7) {
+  background-color: #8E007E;
+}
+
+.container div:nth-child(3), div:nth-child(8) {
+  background-color: #23D0EA;
+}
+
+.container1 div:nth-child(1), div:nth-child(6) {
+  background-color: #00BFB8;
+}
+
+.container1 div:nth-child(2), div:nth-child(7) {
+  background-color: #8E007E;
+}
+
+.container1 div:nth-child(3), div:nth-child(8) {
+  background-color: #23D0EA;
+}
+
+.container div:nth-child(4) {
+  background-color: #EF8956;
+}
+
+.container div:nth-child(5) {
+  background-color: #060A3D;
+}
+*/
