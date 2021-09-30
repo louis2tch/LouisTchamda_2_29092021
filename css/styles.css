@@ -42,7 +42,11 @@
 	padding: 40px;
 	border-radius: 10px;
 	float: left;
+<<<<<<< HEAD
 	background: #d1d1d1;
+=======
+	background: #f2f2f2; /*#d1d1d1;*/
+>>>>>>> b26706638a0b60f48de3751534687c06d8915c67
 }
 .local-right {
 	/*Center Location Right*/
@@ -52,7 +56,11 @@
 	min-height: 625px;
 	padding: 40px;
 	border-radius: 10px;
+<<<<<<< HEAD
 	background: #f2f2f2;
+=======
+	background: #f2f2f2; /*#d1d1d1;*/
+>>>>>>> b26706638a0b60f48de3751534687c06d8915c67
 }
 
 
