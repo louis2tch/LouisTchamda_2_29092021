@@ -1,13 +1,12 @@
 <!DOCTYPE html>
-
 <html>
    <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-	<title>Hebergement pour vos vacances de reve</title>
+	<title>Hebergement pour vos vacances de rêve</title>
 	<meta name="description" content="Trouvez trouver des hébergements et des activités dans la ville de votre choix" />
     <link href='css/styles.css' rel='stylesheet' type='text/css'>
+    	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
-    <!--<link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>-->
 
    </head>
 <body>
@@ -15,30 +14,84 @@
    <!-- Header -->
    <header>
 	<div class="site-content">
-        <!-- Logo -->
-        <div>
-        </div>
+	<!-- Logo -->
+        <div id="logo">
+        	<a href="#" title="Accueil">
+            	<img src="images/logo/Booki.png" width="100">
+            </a>
+        </div> 
         
         <!-- Nav Menu -->
-        <div>
+        <div id="menu">
+            <ul id="nav-menu">
+                <li class="li-menu"><a class="a-nav" href="#hebergement">Hébergements</a></li>
+                <li class="li-menu"><a class="a-nav" href="#activite">Activité</a></li>
+            </ul>
         </div>
+        <div style="clear:both;"></div>
         <!-- Title -->
         <div>
+        	<span class="r-title">Trouvez votre hebergement pour des vacances de rêve</span><br>
+        	<span class="r-texte">En plein centre ville ou en pleine nature</span>
+        </div>
+        <div style="clear:both"></div>
+      <!-- Search -->
+        <div class="search">
+        <button  class="search-btn-left"><i class="fa fa-lg fa-map-marker"></i></button>
+        <input name="" id="" type="text" value="Marseille, France" class="search-input">
+        <button onClick=""  class="search-btn-right" >Rechercher</button>
+        </div> 
+        
+        <!-- Filtres --> 
+        <div class="filtre">
+        
+        	<span class="filtre-title">Filtres</span>
+            <a href="#">
+            <li class="filtre-aws-li"><a href="#">
+            <li class="filtre-aws-li">
+            <span class="fa-stack fa-2x">
+             <i class="fa fa-circle fa-stack-2x blue-light" ></i>
+             <i class="fa fa-money fa-stack-1x  blue"></i>
+            </span>
+            </li>
+            <button onClick="#" class="filtre-btn">Économique</button>
+            </a>
+            <li class="filtre-aws-li">
+            <span class="fa-stack fa-2x" >
+             <i class="fa fa-circle fa-stack-2x blue-light"></i>
+             <i class="fa fa-child fa-stack-1x  blue"style="font-size:20px;" ></i>
+            </span>
+            </li>
+            <button onClick="#"  class="filtre-btn" >Familial</button>
+            <li class="filtre-aws-li">
+            <span class="fa-stack fa-2x">
+             <i class="fa fa-circle fa-stack-2x blue-light" ></i>
+             <i class="fa fa-heart fa-stack-1x  blue" style="font-size:20px;"></i>
+            </span>
+            </li>
+            <button onClick="#"  class="filtre-btn">Romantique</button>
+            <li class="filtre-aws-li">
+            <span class="fa-stack fa-2x">
+             <i class="fa fa-circle fa-stack-2x blue-light" ></i>
+             <i class="fas fa-dog fa-stack-1x  blue filtre-aws-size" ></i>
+            </span>
+            </li>
+            <button onClick="#"  class="filtre-btn">Animaux  autorisés</button>
+            
         </div>
         
-        <!-- Search -->
-        <div>
+        <!-- Info --> 
+        <div class="r-texte" style="margin:40px 0  10px; padding-left:20px;">
+        <i class="fa fa-info blue"  style= "margin-right:20px; " ></i>	Plus de 500 logements sont disponibles dans cette ville
         </div>
-        
-        <!-- Info -->
-        <div>
-        </div>
+
+
  	</div>   
    </header>
-   
+   <a name="hebergement"></a>
    <!-- Section 1 Hebergement-->
    <section id="s_hebergement" >
-	<div class="site-content">	
+	<div class="site-content">
     <!-- Center Location Left -->
 	<div class="local-left local-side ">
         <!-- City - Title Hotel -->
@@ -149,8 +202,7 @@
         <div class="r-btitle">
         <a href="#" class="ar-btitle">Afficher plus</a>
         </div>
-    </div>
-    
+    </div>   
     <!-- Center Location Right -->
 	<div class="local-right local-side" >
         <!-- Polular Hotels Title -->
@@ -212,11 +264,68 @@
     </div>    
  	</div> 
    </section> 
-
+   <a name="activite"></a>
    <!-- Section 2 Activity -->
    <section id="s_activite">
 	<div class="site-content">
-	<!-- Actity Title -->
+	 <!-- Actity Title -->
+	<div class="r-title r-activity">
+    Activité à Marseille 
+    </div>
+	
+    <!-- Activity content-->
+	<div class="container-activity">
+        <!-- Activity 1 -->
+        <div class="item-activity item-activity-inside item-activity-full item-activity01">
+         <a href="">
+            <canvas class="activity-item-canvas"></canvas>
+    		<p class="p-activity-title r-stitle" >Vieux Port</p>
+            
+         </a>  	
+        </div>
+         <!-- Activity 2 -->
+        <div class="item-activity">
+          <a href="">
+            <table class="item-activity-inside item-activity-up item-activity02">
+            	<tr>
+                    <td class="p-activity-title r-stitle tbl-bottom" valign="bottom">Fort de Pomègues</td>
+                </tr>
+            </table>
+          </a>
+          <a href="">
+            <table class="item-activity-inside item-activity-down item-activity03">
+            	<tr>
+                    <td class="p-activity-title r-stitle tbl-bottom" valign="bottom">Îles du Frioul</td>
+                </tr>
+            </table>
+          </a>
+        </div>
+         <!-- Activity 3 -->
+        <div class="item-activity item-activity-inside item-activity-full item-activity04">
+         <a href="">
+            <canvas class="activity-item-canvas"></canvas>
+    		<p class="p-activity-title r-stitle" >Parc National des Calanques</p>
+            
+         </a>  	
+        </div>
+         <!-- Activity 4 -->
+        <div class="item-activity">
+           <a href="">
+            <table class="item-activity-inside item-activity-up2 item-activity05">
+            	<tr>
+                    <td class="p-activity-title r-stitle tbl-bottom" valign="bottom">Notre-Dame-de-la-Garde</td>
+                </tr>
+            </table>
+           </a>
+           <a href="">
+            <table class="item-activity-inside item-activity-down2 item-activity06">
+            	<tr>
+                    <td class="p-activity-title r-stitle tbl-bottom" valign="bottom">Parc Longchamp</td>
+                </tr>
+            </table>
+          </a>
+        </div>
+    </div><!-- Actity Title -->
 	<div class="r-title r-activity">
     Activité à Marseille 
     </div>
@@ -306,6 +415,7 @@
             </p>
         </div>
       </div>
+
 	</div>
    </footer> 
 </body>
