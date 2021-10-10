@@ -658,7 +658,7 @@ nav a:hover {
  /* #corpus {display:none;}*/
   
 }
-@media only screen and (min-width: 850px) and (max-width: 992px){
+@media only screen and (min-width: 850px) and (max-width: 1320px){
   /* For tablet: */
   .col-1 {width: 8.33%;}
   .col-2 {width: 30%;}
@@ -752,7 +752,7 @@ nav a:hover {
 /*corpus {display:none;}*/
 }
 
-@media only screen and (min-width: 993px)  {
+@media only screen and (min-width: 1321px)  {
   /* For desktop: 
   .col-1 {width: 8.33%;}
   .col-2 {width: 16.66%;}
