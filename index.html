@@ -29,7 +29,7 @@
                 <li><a href="#activity">Activité</a></li>
             </ul>
         </nav>
-       <div style="clear:both;"></div>
+       <div class="clear"></div>
       </div> 
       <div class = "site-content col-12">  
         <!--site title-->
@@ -41,9 +41,11 @@
         <!--search-->
         <div class="search">
         	<button class = "search-left"><i class="fa fa-lg fa-map-marker"></i></button>
-            <input id="search" class = "search-input" value="Marseille, France">
-            <button class = "search-right" onclick="">Rechercher</button>
-            <button class = "search-right-s" onclick=""><i class="fa fa-lg fa-search white"></i></button>
+            <form id="f_search" method="get" action="#">
+            	<input id="search" class = "search-input" value="Marseille, France">
+            	<button class = "search-right" >Rechercher</button>
+            	<button class = "search-right-s" ><i class="fa fa-lg fa-search white"></i></button>
+            </form> 
         </div>
         
         
@@ -52,16 +54,20 @@
             <span>Filtres</span>
                 <p id="money"><!--768px--></p>
                 <button class = "filtre-left" id="ico-money"><i class="fa fa-money blue"></i></button>
-                <button class = "filtre-right" onclick="">Économique</button>
+                <!--<button class = "filtre-right" onclick="window.location.href='/">Économique</button>-->
+                <a href="#" class="button">Économique</a>
                 <p id="child"><!--768px--></p>
                 <button class = "filtre-left"><i class="fa fa-child blue"></i></button>
-                <button class = "filtre-right" onclick="">Familial</button>
+                <!--<button class = "filtre-right" onclick="">Familial</button>-->
+                <a href="#" class="button">Familial</a>
                 <p id="heart"><!--768px--></p>
                 <button class = "filtre-left" onclick=""><i class="fa fa-heart blue"></i></button>
-                <button class = "filtre-right">Romantique</button>
+                <!--<button class = "filtre-right">Romantique</button>-->
+                <a href="#" class="button">Romantique</a>
                 <p id="dog"><!--768px--></p>
                 <button class = "filtre-left" id="ico-dog"><i class="fas fa-dog  blue"></i></button>
-                <button class = "filtre-right" onclick="">Animaux  autorisés</button>
+                <!--<button class = "filtre-right" onclick="">Animaux autorisés</button>-->
+                <a href="#" class="button">Animaux autorisés</a>
             
         </div>
         
@@ -74,7 +80,7 @@
     </div>    
 </header>
 
-<div style="clear:both;"></div>
+<div class="clear"></div>
 
 
 <!--section corpus-->
@@ -248,7 +254,7 @@
 
     </div>
 </section>
-<div style="clear:both;"></div>
+<div class="clear"></div>
 <a id="activity"></a>
 <!--section activite1-->
 <section id="activite">

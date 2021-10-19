@@ -18,6 +18,7 @@ body {
 	margin:0; padding:0;
 	/*background: #FC9;*/
 }
+.clear {clear:both;}
 /*--- header ----------------------------------------------------------------------------------*/
 
 #logo {
@@ -112,6 +113,8 @@ header p {
 	background: #609ffe;
 }
 
+#f_search {display: inline;}
+
 /*filtres ---------------------------------------------------------------*/
 #filtre span {
 	font-weight: 800;
@@ -129,26 +132,31 @@ header p {
 		border-radius: 50%; 
 		background: #DEEBFF; 
 		font-weight:800; 
-		cursor:pointer;
-}
-#filtre .filtre-right {
-		/*Position:relative;
-		top:2px;  z-index:1;*/
-		margin:0 30px 0 -27px; 
-		height:40px; 
-		padding:0 25px 0 40px; 
-		border:2px  solid #f2f2f2;  
-		border-left:0; 
-		border-top-right-radius: 20px; 
-		border-bottom-right-radius: 20px; 
-		background: #FFF; 
-		font-weight:800; 
-		font-size:14px; 
-		cursor:pointer;
+		/*cursor:pointer;*/
 }
 
+a.button {
+    -webkit-appearance: button;
+    -moz-appearance: button;
+    appearance: button;
+    text-decoration: none;
+    color: initial;
+	
+	margin:0 30px 0 -27px; 
+	/*height:42px;*/ 
+	padding:11px 25px 10px 40px; 
+	border:2px  solid #f2f2f2;  
+	border-left:0; 
+	border-top-right-radius: 20px; 
+	border-bottom-right-radius: 20px; 
+	background: #FFF; 
+	font-weight:800; 
+	font-size:14px; 
+}
+a.button:hover {color: #0065FC; }
+
 .padding-left {padding-left:20px;}
-#ico-money{font-size:18px; padding:0; top:2px; padding-top:2px;}
+#ico-money{font-size:18px; padding:0; top:0px; padding-top:0px;}
 #ico-dog{ top:1px; }
 
 #filtre a:hover {
@@ -657,13 +665,31 @@ nav a:hover {
 .site-content {
 	padding:0 15px;
 }
-
+.act-item {
+    min-height: 10px;
+}
 .act-item img {
     width: 100%;
 }
 .act-item-v1 img {
     width: 100%;
 }
+.act-container span {
+    padding: 15px 20px 10px;
+}
+#activite h4, span {
+    padding: 10px 10px 0px;
+    font-size: 12px;
+}
+
+.act-item-v1 {
+    margin: 0 0 30px;
+}
+
+.act-item-h1 {
+    min-height: 223px;
+}
+
  /* #corpus {display:none;}*/
   
 }
